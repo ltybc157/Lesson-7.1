@@ -1,11 +1,8 @@
 window.addEventListener('DOMContentLoaded', function() {
 
     'use strict';
-
    
-    //Timer
-
-    let deadline = '2019-4-21';
+    let deadline = '2019-4-00';
 
     function getTimeRemaining(endtime) {
         let t = Date.parse(endtime) - Date.parse(new Date()),
